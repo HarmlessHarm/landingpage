@@ -1,8 +1,39 @@
 // Styling for the masthead
+// .background-image {
+//   position: fixed;
+//   left: 0;
+//   right: 0;
+//   z-index: 1;
+//   display: block;
+//   background-image: url('../img/code-jpeg');
+//   filter: blur(5px);
+
+// }
+// header.mashead::before {
+//   content: "";
+//   position: fixed;
+//   left: 0;
+//   right: 0;
+//   z-index: 100;
+
+//   display: block;
+//   background-image: url('../img/code.jpeg');
+//   background-size:cover;
+//   width: 100%;
+//   height: 100%;
+
+//   -webkit-filter: blur(5px);
+//   -moz-filter: blur(5px);
+//   -o-filter: blur(5px);
+//   -ms-filter: blur(5px);
+//   filter: blur(5px);
+// }
+
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/code.jpeg');
+  // filter: blur(5px);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

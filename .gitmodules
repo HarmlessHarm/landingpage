@@ -1,0 +1,3 @@
+[submodule "mistakes"]
+        path = mistakes
+        url = /srv/git/mistakes.git

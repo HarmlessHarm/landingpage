@@ -462,26 +462,6 @@ header.masthead .intro-text .intro-heading {
   margin-top: 12px;
 }
 
-.timeline > li:nth-child(2n) > .timeline-panel {
-  float: right;
-  padding: 0 100px 20px 20px;
-  text-align: left;
-}
-
-.timeline > li:nth-child(2n) > .timeline-panel:before {
-  right: auto;
-  left: -15px;
-  border-right-width: 15px;
-  border-left-width: 0;
-}
-
-.timeline > li:nth-child(2n) > .timeline-panel:after {
-  right: auto;
-  left: -14px;
-  border-right-width: 14px;
-  border-left-width: 0;
-}
-
 .timeline > li:last-child {
   margin-bottom: 0;
 }
@@ -525,7 +505,7 @@ header.masthead .intro-text .intro-heading {
     line-height: 18px;
     margin-top: 16px;
   }
-  .timeline > li.timeline-inverted > .timeline-panel {
+  .timeline > li:nth-child(2n) > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
     text-align: left;

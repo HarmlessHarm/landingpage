@@ -62,23 +62,23 @@
         margin-top: 12px;
       }
     }
-    &:nth-child(2n) > .timeline-panel {
-      float: right;
-      padding: 0 100px 20px 20px;
-      text-align: left;
-      &:before {
-        right: auto;
-        left: -15px;
-        border-right-width: 15px;
-        border-left-width: 0;
-      }
-      &:after {
-        right: auto;
-        left: -14px;
-        border-right-width: 14px;
-        border-left-width: 0;
-      }
-    }
+    // &:nth-child(2n) > .timeline-panel {
+    //   float: right;
+    //   padding: 0 20px 0px 100px;
+    //   text-align: left;
+    //   &:before {
+    //     right: auto;
+    //     left: -15px;
+    //     border-right-width: 15px;
+    //     border-left-width: 0;
+    //   }
+    //   &:after {
+    //     right: auto;
+    //     left: -14px;
+    //     border-right-width: 14px;
+    //     border-left-width: 0;
+    //   }
+    // }
     &:last-child {
       margin-bottom: 0;
     }
@@ -124,7 +124,7 @@
           margin-top: 16px;
         }
       }
-      &.timeline-inverted > .timeline-panel {
+      &:nth-child(2n) > .timeline-panel {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;

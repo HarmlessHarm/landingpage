@@ -79,6 +79,11 @@ section h3.section-subheading {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
+.btn-primary:disabled {
+  background-color: #e89e04 !important;
+  border-color: #e89e04 !important;
+}
+
 ::-moz-selection {
   background: #FBB117;
   text-shadow: none;

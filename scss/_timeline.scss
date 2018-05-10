@@ -106,7 +106,7 @@
     }
     > li {
       min-height: 100px;
-      margin-bottom: 100px;
+      // margin-bottom: 100px;
       .timeline-panel {
         float: left;
         width: 41%;
@@ -136,6 +136,7 @@
   .timeline {
     > li {
       min-height: 150px;
+      margin-bottom: 100px;
       .timeline-panel {
         padding: 0 20px 20px;
       }

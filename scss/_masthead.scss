@@ -38,6 +38,9 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   @include background-cover;
+  span.highlight {
+    color: $primary
+  }
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;

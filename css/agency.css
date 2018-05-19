@@ -425,6 +425,10 @@ header.masthead .intro-text .intro-heading {
   clear: both;
 }
 
+.timeline > li#confocal .timeline-image {
+  background-color: white;
+}
+
 .timeline > li .timeline-panel {
   position: relative;
   float: right;
@@ -445,6 +449,10 @@ header.masthead .intro-text .intro-heading {
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0;
+}
+
+.timeline > li .timeline-panel .timeline-heading .subheading {
+  color: #FBB117;
 }
 
 .timeline > li .timeline-image {

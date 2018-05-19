@@ -25,6 +25,11 @@
     &:after {
       clear: both;
     }
+    &#confocal {
+      .timeline-image {
+        background-color: white;
+      }
+    }
     .timeline-panel {
       position: relative;
       float: right;
@@ -42,6 +47,11 @@
         left: -14px;
         border-right-width: 14px;
         border-left-width: 0;
+      }
+      .timeline-heading {
+        .subheading {
+          color: $primary;
+        }
       }
     }
     .timeline-image {
